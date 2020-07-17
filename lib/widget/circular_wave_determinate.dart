@@ -61,7 +61,6 @@ class _CircleWaveConcreteProgressState extends State<CircleWaveProgressConcrete>
                     return CircleWaveAnimation(animationController: _animationController, foregroundWaveColor: widget.foregroundWaveColor, backgroundWaveColor: widget.backgroundWaveColor, progress: value);
                   }
               )
-            //CircleWaveAnimation(animationController: _animationController, foregroundWaveColor: widget.foregroundWaveColor, backgroundWaveColor: widget.backgroundWaveColor, progress: widget.progress),
           ),
           Center(
             child: FractionallySizedBox(
