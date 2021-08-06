@@ -2,7 +2,7 @@ import 'dart:math';
 import 'package:flutter/widgets.dart';
 
 class RingPainter extends CustomPainter {
-  RingPainter({this.angle = 45.0, double paintWidth, Color color, Color backgroundColor})
+  RingPainter({this.angle = 45.0, required double paintWidth, required Color color, required Color backgroundColor})
       : ringPaint = Paint()
     ..color = color
     ..strokeWidth = paintWidth

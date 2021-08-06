@@ -25,7 +25,7 @@ class CircleWaveProgressConcrete extends StatefulWidget {
 }
 
 class _CircleWaveConcreteProgressState extends State<CircleWaveProgressConcrete> with TickerProviderStateMixin {
-  AnimationController _animationController;
+  late AnimationController _animationController;
 
   @override
   void initState() {

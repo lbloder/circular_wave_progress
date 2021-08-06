@@ -3,8 +3,8 @@ import '../painter/wave_painter.dart';
 
 class CircleWaveAnimation extends StatelessWidget {
   const CircleWaveAnimation({
-    Key key,
-    @required AnimationController animationController,
+    Key? key,
+    required AnimationController animationController,
     this.foregroundWaveColor = Colors.white,
     this.backgroundWaveColor = Colors.white,
     this.progress = 50.0,
@@ -18,6 +18,7 @@ class CircleWaveAnimation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return ClipPath(
       clipper: CircleClipper(),
       child: AnimatedBuilder(

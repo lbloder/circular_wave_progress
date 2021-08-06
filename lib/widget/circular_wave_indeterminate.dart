@@ -25,7 +25,7 @@ class CircleWaveProgress extends StatefulWidget {
 }
 
 class _WaveWidgetState extends State<CircleWaveProgress> with TickerProviderStateMixin {
-  AnimationController _animationController;
+  late AnimationController _animationController;
 
   @override
   void initState() {
@@ -47,6 +47,7 @@ class _WaveWidgetState extends State<CircleWaveProgress> with TickerProviderStat
 
   @override
   Widget build(BuildContext context) {
+
     return Container(
       width: widget.size,
       height: widget.size,

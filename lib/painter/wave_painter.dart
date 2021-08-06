@@ -8,7 +8,7 @@ class WaveWidgetPainter extends CustomPainter {
   double offset;
   bool leftToRight;
 
-  WaveWidgetPainter({this.animation, this.backgroundColor, this.waveColor, this.progress, this.offset = 0, this.leftToRight = true});
+  WaveWidgetPainter({required this.animation, required this.backgroundColor, required  this.waveColor, required this.progress, this.offset = 0, this.leftToRight = true});
 
   @override
   void paint(Canvas canvas, Size size) {
